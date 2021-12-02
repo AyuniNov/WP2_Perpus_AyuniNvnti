@@ -10,7 +10,7 @@
                 </div>
             <?php }?>
             <?= $this->session->flashdata('pesan'); ?>
-            <a href="" class="btn btn-primary mb-3" datatoggle="modal" data-target="#bukuBaruModal"><i class="fas fa-filealt"></i> Buku Baru</a>
+            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#bukuBaruModal"><i class="fas fa-filealt"></i> Buku Baru</a>
             <table class="table table-hover">
                 <thead>
                     <tr>
